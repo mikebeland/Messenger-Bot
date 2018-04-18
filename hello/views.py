@@ -5,7 +5,7 @@ from .models import Greeting
 
 # Create your views here.
 def index(request):
-    return HttpResponse.status_code
+    return HttpResponse(status_code)
     return render(request, 'index.html')
 
 
